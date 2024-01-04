@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    
+    
+}
+.box{
+    height: 250px;
+    width: 500px;
+    background-color: green;
+    position: relative;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+}
+.circle{
+    height: 160px;
+    width: 160px;
+    background-color: red;
+    position: absolute;
+    
+    border-radius: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.handle{
+    height: 250px;
+    width: 40px;
+    background-color: black;
+    position: relative
+    ;
+    top: 90%;
+    border-top-right-radius: 30px;
+}
+
+.flag-footer{
+    height: 50px;
+    width: 120px;
+    background-color: black;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
